@@ -16,3 +16,7 @@ function calculadora(a, b, operacao) {
           return "Operação inválida!";
   }
 }
+// Solicitando entradas do usuário
+let numero1 = parseFloat(prompt("Digite o primeiro número:"));
+let numero2 = parseFloat(prompt("Digite o segundo número:"));
+let operacao = prompt("Digite a operação desejada (soma, subtracao, multiplicacao ou divisao):");
