@@ -20,3 +20,6 @@ function calculadora(a, b, operacao) {
 let numero1 = parseFloat(prompt("Digite o primeiro número:"));
 let numero2 = parseFloat(prompt("Digite o segundo número:"));
 let operacao = prompt("Digite a operação desejada (soma, subtracao, multiplicacao ou divisao):");
+
+// Executando a operação com base na escolha do usuário
+let resultado = calculadora(numero1, numero2, operacao);
