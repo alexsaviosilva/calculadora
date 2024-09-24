@@ -23,3 +23,6 @@ let operacao = prompt("Digite a operação desejada (soma, subtracao, multiplica
 
 // Executando a operação com base na escolha do usuário
 let resultado = calculadora(numero1, numero2, operacao);
+
+// Exibindo o resultado no console
+console.log("Resultado: " + resultado);
